@@ -77,7 +77,7 @@ header a:hover{
 
 #Showcase {
 	height: 200px;
-	background: image
+	/* background: image; */
 	text-align: center;
 	color: orange;
 	line-height: 35px
