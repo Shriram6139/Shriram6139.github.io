@@ -42,7 +42,8 @@ header a{
 }*/
 
 header li{
-	float: left;
+	/* float: left; */
+	font-size: 25px;
 	display: inline;
 	padding: 0 20px 0 20px;
 }
