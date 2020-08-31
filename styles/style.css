@@ -23,7 +23,7 @@ ul {
 
 header{
 	background: #35424a;
-	height:150px;
+	height:90px;
 	color: #ffffff;
 	padding-top: 30px;
 	min-height: 70px;
@@ -123,6 +123,7 @@ header a:hover{
 #newsletter #linkid{
 	color: orange;
 	text-decoration: none;
+	border-bottom: solid 2px orange;
 	transition: color 500ms ease-in-out;
 	transition: border-bottom 500ms ease-in-out;
 }
@@ -179,6 +180,20 @@ footer{
 
 footer {
 	font-size: 18px;
+}
+
+.homebtn{
+	display: flex;
+	justify-content: center;
+}
+
+#hbtn{
+	border: solid 1px black;
+	border-radius: 10px;
+	padding:10px;
+	text-decoration: none;
+	color: white;
+	background: rgb(255, 193, 79);
 }
 
 @media(max-width: 1200px){
