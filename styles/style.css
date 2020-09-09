@@ -253,6 +253,46 @@ footer {
 
 	}
 
+	.modelContent{
+		background-color: lightgrey ;
+		margin: auto;
+		padding-top: 300px; 
+		padding-left: 8px;
+		width: 98%;
+		animation-name: zoom;
+		animation-duration: 300ms;
+	}
 
+	@keyframes zoom{
+		from{transform: scale(0)}
+		to{transform: scale(1)}
+	}
+	
+	
+	.close{
+		padding-top: 100px;
+		display: flex;
+		justify-content: center;
+		font-weight: bold;
+		font-size: 100px;
+	}
+	
+	.close:hover{
+		color: white;
+		text-decoration: none;
+		cursor: pointer;
+	}
+	
+	#myImgModal {
+		display: none;
+		position: fixed;
+		z-index: 1;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		overflow:hidden;
+		background-color:  lightgrey;
+	}
 }
 
